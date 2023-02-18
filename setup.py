@@ -11,9 +11,9 @@ setuptools.setup(
     description='Package for the ipc communication between the pose estimator and the autotracking',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/tryiris-ai/Pose.estimator.comm.git',
+    url='https://github.com/Rajiv91/Pose.comm.git',
     project_urls = {
-        "Bug Tracker": "https://github.com/tryiris-ai/Pose.estimator.comm/issues"
+        "Bug Tracker": "https://github.com/Rajiv91/Pose.comm/issues"
     },
     license='MIT',
     packages=['PoseEstimatorComm'],
