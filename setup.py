@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='Pose.comm',
+    name='posecomm',
     version='0.0.1',
     author='Rajiv Gonzalez',
     author_email='rajiv@tryiris.ai',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Rajiv91/Pose.comm/issues"
     },
     license='MIT',
-    packages=['Pose.comm'],
+    packages=['posecomm'],
     install_requires=['aio-udp-server'],
 )
