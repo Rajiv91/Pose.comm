@@ -6,7 +6,7 @@ import threading
 import time
 import json
 
-class SubjectSample:
+class SubjectSample2:
     def __init__(
             self, 
             x: float, 
