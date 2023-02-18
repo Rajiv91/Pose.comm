@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/tryiris-ai/Pose.estimator.comm/issues"
     },
     license='MIT',
-    packages=['PoseEstimatorComm'],
+    packages=['Pose.estimator.comm'],
     install_requires=['aio-udp-server'],
 )
