@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='poseComm',
+    name='PoseEstimatorComm',
     version='0.0.1',
     author='Rajiv Gonzalez',
     author_email='rajiv@tryiris.ai',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/tryiris-ai/Pose.estimator.comm/issues"
     },
     license='MIT',
-    packages=['Pose.estimator.comm'],
+    packages=['PoseEstimatorComm'],
     install_requires=['aio-udp-server'],
 )
